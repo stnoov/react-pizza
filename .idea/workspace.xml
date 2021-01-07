@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9dd3b9-fedc-4163-a128-497276bcc00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +69,7 @@
       <workItem from="1609802898881" duration="3801000" />
       <workItem from="1609863970480" duration="7030000" />
       <workItem from="1609894071824" duration="4382000" />
+      <workItem from="1609977171966" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, add layout">
       <created>1609719094961</created>
@@ -104,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609892202804</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change fetch to axios">
+      <created>1609977395705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609977395705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +130,7 @@
     <MESSAGE value="Move header to separate component" />
     <MESSAGE value="Move categories to separate component" />
     <MESSAGE value="Add popup functionality, add react router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add popup functionality, add react router" />
+    <MESSAGE value="Change fetch to axios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change fetch to axios" />
   </component>
 </project>
