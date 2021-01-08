@@ -1,7 +1,15 @@
 import React from 'react';
 import {Categories, SortPopup, PizzaBlock} from "../components";
+import {useSelector} from "react-redux";
 
-const Home = ({items}) => {
+const Home = () => {
+
+    const { items } = useSelector(({ pizzas }) => {
+        return {
+            items: pizzas.items
+        }
+    })
+
     return (
         <div>
             <div className="container">
@@ -16,9 +24,9 @@ const Home = ({items}) => {
                             'Закрытые'
                         ]}/>
                     <SortPopup items={[
-                        'popularity',
-                        'price',
-                        'alphabetically'
+                        {name:'popularity', type: 'popularity'},
+                        {name: 'price', type: 'price'},
+                        {name: 'alphabetically', type: 'alphabetically'}
                     ]}/>
                 </div>
                 <h2 className="content__title">Все пиццы</h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SortPopup = ({ items }) => {
+const SortPopup = ({items}) => {
 
     const [visiblePopup, setVisiblePopup] = React.useState(false);
     const [activeItem, setActiveItem] = React.useState(0)
@@ -17,7 +17,7 @@ const SortPopup = ({ items }) => {
     }
 
     const handleOutsideClick = (e) => {
-        if(!e.path.includes(sortRef.current)) {
+        if (!e.path.includes(sortRef.current)) {
             setVisiblePopup(false)
         }
     };
@@ -43,14 +43,16 @@ const SortPopup = ({ items }) => {
                     />
                 </svg>
                 <b>Sort:</b>
-                <span onClick={toggleVisiblePopup}>{items[activeItem]}</span>
+                <span onClick={toggleVisiblePopup}>{items[activeItem.name]}</span>
             </div>
             {visiblePopup &&
             <div className="sort__popup">
                 <ul>
-                    {items && items.map((elem, index) => {
-                        return(
-                            <li key={`${elem}__${index}`} className={activeItem === index ? 'active' : ''} onClick={() => onSelectItem(index)}>{elem}</li>
+                    {items &&
+                        items.map((elem, index) => {
+                        return (
+                            <li key={`${elem.type}__${index}`} className={activeItem === index ? 'active' : ''}
+                                onClick={() => onSelectItem(index)}>{elem.name}</li>
                         )
                     })}
                 </ul>
