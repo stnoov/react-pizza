@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9dd3b9-fedc-4163-a128-497276bcc00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SortPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +76,8 @@
       <workItem from="1609894071824" duration="4382000" />
       <workItem from="1609977171966" duration="1631000" />
       <workItem from="1610119669515" duration="33000" />
-      <workItem from="1610119740232" duration="8667000" />
+      <workItem from="1610119740232" duration="9399000" />
+      <workItem from="1610208503349" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, add layout">
       <created>1609719094961</created>
@@ -127,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609978227775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add and connect Redux">
+      <created>1610135849545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610135849545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +154,7 @@
     <MESSAGE value="Add popup functionality, add react router" />
     <MESSAGE value="Change fetch to axios" />
     <MESSAGE value="Add proptypes to pizza block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add proptypes to pizza block" />
+    <MESSAGE value="Add and connect Redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and connect Redux" />
   </component>
 </project>
