@@ -12,9 +12,9 @@ function App() {
     const dispatch = useDispatch();
 
     React.useEffect(() => {
-        Axios.get('http://localhost:3000/db.json')
+        Axios.get('http://localhost:3001/pizzas')
             .then(({ data }) =>
-                dispatch(setPizzas(data.pizzas)))
+                dispatch(setPizzas(data)))
     }, []);
 
     return (
