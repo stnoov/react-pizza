@@ -3,7 +3,7 @@ import Axios from "axios";
 
 export const fetchPizzas = (sort, category) => (dispatch) => {
     dispatch(setLoaded(false))
-    Axios.get(`http://localhost:3001/pizzas?${category !== null ? `category=${category}` : ''}&_sort=${sort}&_order=asc`)
+    Axios.get(`/pizzas?${category !== null ? `category=${category}` : ''}&_sort=${sort}&_order=asc`)
         .then(({ data }) => dispatch(setPizzas(data)))
 }
 
