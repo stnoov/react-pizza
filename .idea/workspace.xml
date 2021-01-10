@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9dd3b9-fedc-4163-a128-497276bcc00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaLoadingBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart/CartEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\pages\Cart" />
       <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\components\PizzaBlock" />
       <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\components" />
     </key>
@@ -89,7 +85,8 @@
       <workItem from="1609977171966" duration="1631000" />
       <workItem from="1610119669515" duration="33000" />
       <workItem from="1610119740232" duration="9399000" />
-      <workItem from="1610208503349" duration="11807000" />
+      <workItem from="1610208503349" duration="12604000" />
+      <workItem from="1610288077592" duration="4674000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, add layout">
       <created>1609719094961</created>
@@ -154,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610212376958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add preloads, move pizza data fetch to redux, connect redux thunk, add functionality to categories and sort">
+      <created>1610244322963</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610244322963</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +187,7 @@
     <MESSAGE value="Add and connect Redux" />
     <MESSAGE value="Remove unnecessary rerenders from the home component" />
     <MESSAGE value="Add fake json server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fake json server" />
+    <MESSAGE value="Add preloads, move pizza data fetch to redux, connect redux thunk, add functionality to categories and sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add preloads, move pizza data fetch to redux, connect redux thunk, add functionality to categories and sort" />
   </component>
 </project>
