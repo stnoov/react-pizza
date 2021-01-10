@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9dd3b9-fedc-4163-a128-497276bcc00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +74,7 @@
       <workItem from="1610119669515" duration="33000" />
       <workItem from="1610119740232" duration="9399000" />
       <workItem from="1610208503349" duration="12604000" />
-      <workItem from="1610288077592" duration="9758000" />
+      <workItem from="1610288077592" duration="10078000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, add layout">
       <created>1609719094961</created>
@@ -162,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610293635531</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add cart functionality">
+      <created>1610302300198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610302300198</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Hotfix">
+      <created>1610302428629</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610302428629</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +198,8 @@
     <MESSAGE value="Add fake json server" />
     <MESSAGE value="Add preloads, move pizza data fetch to redux, connect redux thunk, add functionality to categories and sort" />
     <MESSAGE value="Add data sending to redux while adding pizzas, add display of total price and items in the cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add data sending to redux while adding pizzas, add display of total price and items in the cart" />
+    <MESSAGE value="Add cart functionality" />
+    <MESSAGE value="Hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotfix" />
   </component>
 </project>

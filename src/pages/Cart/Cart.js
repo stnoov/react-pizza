@@ -2,6 +2,10 @@ import React from 'react';
 import {CartItem} from "../../components";
 import {useDispatch, useSelector} from "react-redux";
 import { clearCart, removeCartItem, plusCartItem, minusCartItem } from '../../redux/actions/cart';
+import { Link } from 'react-router-dom';
+
+import emptyCard from "../../assets/img/empty-cart.png";
+
 
 const Cart = () => {
 
@@ -39,6 +43,7 @@ const Cart = () => {
 
     return (
         <div className="container container--cart">
+            {itemsCount ? (
             <div className="cart">
                 <div className="cart__top">
                     <h2 className="content__title">
@@ -101,8 +106,9 @@ const Cart = () => {
                                 <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" strokeWidth="1.5"
                                       strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
-
-                            <span>Вернуться назад</span>
+                            <Link to='/'>
+                                <span>Вернуться назад</span>
+                            </Link>
                         </a>
                         <div
                             onClick={onClickOrder}
@@ -112,6 +118,22 @@ const Cart = () => {
                     </div>
                 </div>
             </div>
+                ) : (
+                <div className="cart cart--empty">
+                    <h2>
+                        Корзина пустая <i>😕</i>
+                    </h2>
+                    <p>
+                        Вероятней всего, вы не заказывали ещё пиццу.
+                        <br />
+                        Для того, чтобы заказать пиццу, перейди на главную страницу.
+                    </p>
+                    <img src={emptyCard} alt="Empty cart" />
+                    <Link to="/" className="button button--black">
+                        <span>Вернуться назад</span>
+                    </Link>
+                </div>
+            )}
         </div>
     );
 };
