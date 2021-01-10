@@ -1,5 +1,5 @@
 export const setSort = (name) => ({
-    type: 'SET_SORT_BY',
+    type: 'SET_SORT',
     payload: name
 })
 
