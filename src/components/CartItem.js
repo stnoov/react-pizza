@@ -58,7 +58,7 @@ const CartItem = ({ id, name, type, size, imageUrl, totalPrice, totalCount, onRe
                 </div>
             </div>
             <div className="cart__item-price">
-                <b>{totalPrice} ₽</b>
+                <b>{totalPrice} €</b>
             </div>
             <div className="cart__item-remove">
                 <div

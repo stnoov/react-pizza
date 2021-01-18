@@ -58,7 +58,7 @@ const Cart = () => {
                                 d="M4.78002 4.99999H16.3334L15.2134 10.5933C15.1524 10.9003 14.9854 11.176 14.7417 11.3722C14.4979 11.5684 14.1929 11.6727 13.88 11.6667H6.83335C6.50781 11.6694 6.1925 11.553 5.94689 11.3393C5.70128 11.1256 5.54233 10.8295 5.50002 10.5067L4.48669 2.82666C4.44466 2.50615 4.28764 2.21182 4.04482 1.99844C3.80201 1.78505 3.48994 1.66715 3.16669 1.66666H1.66669"
                                 stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
-                        Корзина
+                        Cart
                     </h2>
                     <div
                         onClick={onClearCart}
@@ -75,7 +75,7 @@ const Cart = () => {
                                   strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
 
-                        <span>Очистить корзину</span>
+                        <span>Clear cart</span>
                     </div>
                 </div>
                 <div className="content__items">
@@ -96,8 +96,8 @@ const Cart = () => {
                 </div>
                 <div className="cart__bottom">
                     <div className="cart__bottom-details">
-                        <span> Всего пицц: <b>{itemsCount} шт.</b> </span>
-                        <span> Сумма заказа: <b>{totalPrice} ₽</b> </span>
+                        <span> Pizzas: <b>{itemsCount} pc.</b> </span>
+                        <span> Total bill: <b>{totalPrice} €</b> </span>
                     </div>
                     <div className="cart__bottom-buttons">
                         <a href="/" className="button button--outline button--add go-back-btn">
@@ -107,13 +107,13 @@ const Cart = () => {
                                       strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                             <Link to='/'>
-                                <span>Вернуться назад</span>
+                                <span>Go back</span>
                             </Link>
                         </a>
                         <div
                             onClick={onClickOrder}
                             className="button pay-btn">
-                            <span>Оплатить сейчас</span>
+                            <span>Pay now</span>
                         </div>
                     </div>
                 </div>
@@ -121,16 +121,16 @@ const Cart = () => {
                 ) : (
                 <div className="cart cart--empty">
                     <h2>
-                        Корзина пустая <i>😕</i>
+                        The cart is empty<i>😕</i>
                     </h2>
                     <p>
-                        Вероятней всего, вы не заказывали ещё пиццу.
+                        Probably, you haven't ordered pizza yet.
                         <br />
-                        Для того, чтобы заказать пиццу, перейди на главную страницу.
+                        To order pizza move to the main page.
                     </p>
                     <img src={emptyCard} alt="Empty cart" />
                     <Link to="/" className="button button--black">
-                        <span>Вернуться назад</span>
+                        <span>Back to Main</span>
                     </Link>
                 </div>
             )}

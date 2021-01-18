@@ -66,7 +66,7 @@ const PizzaBlock = ({ id, name, imageUrl, price, types, sizes, onClickAddPizza, 
                 </ul>
             </div>
             <div className="pizza-block__bottom">
-                <div className="pizza-block__price">от {price} ₽</div>
+                <div className="pizza-block__price">from {price} €</div>
                 <Button onClick={handleAddPizza} className="button--add" outline >
                     <svg
                         width="12"
@@ -80,7 +80,7 @@ const PizzaBlock = ({ id, name, imageUrl, price, types, sizes, onClickAddPizza, 
                             fill="white"
                         />
                     </svg>
-                    <span>Добавить</span>
+                    <span>Add</span>
                     {cartCount && <i>{cartCount}</i>}
                 </Button>
             </div>

@@ -47,7 +47,7 @@ const Home = () => {
                         items={categoryNames}/>
                     <SortPopup activeSortType={sort} items={sortItems} onClickSortType={onSelectSortType} />
                 </div>
-                <h2 className="content__title">Все пиццы</h2>
+                <h2 className="content__title" />
                 <div className="content__items">
                     {isLoaded ?
                     items.map((elem) => {

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9dd3b9-fedc-4163-a128-497276bcc00a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../okiedokie-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stnoo\WebstormProjects\react-pizza" />
       <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\pages\Cart" />
       <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\components\PizzaBlock" />
       <recent name="C:\Users\stnoo\WebstormProjects\react-pizza\src\components" />
@@ -75,7 +86,11 @@
       <workItem from="1610119669515" duration="33000" />
       <workItem from="1610119740232" duration="9399000" />
       <workItem from="1610208503349" duration="12604000" />
-      <workItem from="1610288077592" duration="10495000" />
+      <workItem from="1610288077592" duration="10786000" />
+      <workItem from="1610542828983" duration="1243000" />
+      <workItem from="1610544092366" duration="33000" />
+      <workItem from="1610886128669" duration="74000" />
+      <workItem from="1610965195423" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, add layout">
       <created>1609719094961</created>
@@ -175,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610302677142</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changes to the design">
+      <created>1610303206110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610303206110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +231,7 @@
     <MESSAGE value="Add cart functionality" />
     <MESSAGE value="Hotfix" />
     <MESSAGE value="Add empty cart view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add empty cart view" />
+    <MESSAGE value="Changes to the design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to the design" />
   </component>
 </project>
